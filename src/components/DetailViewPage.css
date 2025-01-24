@@ -1,0 +1,19 @@
+.detailview-container {
+    padding: 20px;
+    background-color: blanchedalmond;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 1.125rem;
+    color: #555;
+  }
+
+  .card:hover {
+   background-color: aqua;
+  }
+  
