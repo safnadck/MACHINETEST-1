@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap styles
-import "./ListViewPage.css"; // Your custom styles
+import 'bootstrap/dist/css/bootstrap.min.css'; 
+import "./ListViewPage.css";
 
 const ListViewPage = () => {
   const [posts, setPosts] = useState([]);
