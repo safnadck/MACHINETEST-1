@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Ensure Bootstrap is imported
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const DetailViewPage = () => {
-  const { id } = useParams();  // Get the dynamic parameter `id`
+  const { id } = useParams(); 
   const [post, setPost] = useState(null);
 
-  console.log('Detail View Page ID:', id); // Debugging
+  console.log('Detail View Page ID:', id); 
 
   useEffect(() => {
     axios.get(`https://jsonplaceholder.typicode.com/posts/${id}`)
